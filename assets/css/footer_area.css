@@ -1,0 +1,94 @@
+.footer_area .footer_contents {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_area .footer_left {
+  width: 40%;
+}
+
+.footer_area .logo a img {
+  width: 160px;
+  display: flex;
+}
+
+.footer_heading h3 {
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.footer_area {
+  padding: 120px 0;
+  background: #030303;
+}
+
+.footer_area .links ul {
+  list-style: none;
+}
+
+.footer_area .links ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.footer_area .links ul li:not(.links ul li:last-child) {
+  padding-bottom: 15px;
+}
+
+.footer_area .links ul li a:hover {
+  color: blue;
+}
+.footer_left .logo {
+  padding-bottom: 20px;
+}
+/* footer copywrite */
+.copywrite_div .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 15px;
+  align-items: center;
+}
+
+.cpyr8_left h4 {
+  font-size: 17px;
+  font-weight: 600;
+  color: #030303;
+}
+
+.cpyr8_right p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #030303;
+}
+
+.cpyr8_right {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.fish img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+/* responsive css */
+@media only screen and (max-width: 766px) {
+  .footer_area .footer_contents {
+    display: grid;
+    gap: 50px;
+    justify-content: center;
+  }
+  .copywrite_div .container {
+    display: grid;
+    gap: 10px;
+  }
+  .footer_area .footer_left {
+    width: 100%;
+  }
+}

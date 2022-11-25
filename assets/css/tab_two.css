@@ -1,0 +1,229 @@
+.Tab_area_two {
+  background: #ffffff !important;
+  padding-bottom: 120px !important;
+}
+.Tab_area_two .container {
+  display: grid;
+}
+
+.Tab_area_two .tab_right {
+  width: 60%;
+}
+
+.Tab_area_two .tab_left {
+  width: 100%;
+}
+.Tab_area_two .container {
+  display: grid !important;
+}
+.Tab_area_two .tab_img img {
+  width: 75%;
+}
+
+.Tab_area_two .tab_img {
+  justify-content: flex-end;
+}
+
+.Tab_area_two .tab_desc {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  height: fit-content;
+  transform: translateY(-50%);
+  padding: 60px 30px;
+  width: 50%;
+}
+
+.Tab_area_two .tab_desc p {
+  padding-bottom: 40px;
+}
+.Tab_area_two .tab_li {
+  justify-content: flex-end;
+}
+.Tab_area_two .b-nav-tab {
+  width: 230px;
+  text-align: center;
+  justify-content: center;
+}
+.Tab_area_two .tab_li {
+  padding-bottom: 30px;
+}
+.tab_desc > h3 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #364959;
+  padding-bottom: 15px;
+}
+/* Demolition and Supply styles */
+.tab_img_slider.SliderTwo {
+  display: flex;
+  justify-content: flex-end;
+}
+.mySlides2 {
+  width: 50%;
+  height: 450px;
+  z-index: 9999999;
+}
+.mySlides2 img {
+  height: 100%;
+  object-fit: fill;
+  border-radius: 20px;
+}
+.Tab_area_two .tab_img {
+  height: 450px;
+  width: 100%;
+  position: absolute;
+  z-index: 0;
+}
+.Tab_area_two .tab_desc {
+  padding: 60px 180px 60px 30px;
+}
+.tab_desc ul li h4 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #2a5bb5;
+  line-height: 30px;
+  padding-bottom: 0;
+}
+.tab_sub_itms {
+  padding: 0px 0 20px 0px;
+}
+.sub_itms {
+  padding-left: 35px;
+}
+.tab_sub_itms li h4 {
+  display: flex;
+  align-items: center;
+}
+@media only screen and (max-width: 992px) {
+  .Tab_area_two .tab_img {
+    height: 500px;
+    width: 100%;
+    position: relative;
+  }
+  .Tab_area_two .tab_desc {
+    padding: 60px 30px !important;
+    width: 100% !important;
+    height: 100%;
+    display: grid;
+  }
+  .tab_img_slider.SliderTwo {
+    justify-content: center;
+  }
+  .mySlides2 {
+    width: 100%;
+  }
+  .mySlides2 img {
+    height: 100%;
+    object-fit: cover;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .Tab_area_two .tab_li {
+    padding-bottom: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 52%;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 930px) {
+  .Tab_area_two .container {
+    gap: 30px !important;
+  }
+  .Tab_area_two .tab_img img {
+    width: 100%;
+  }
+  .Tab_area_two .tab_desc {
+    left: 50% !important;
+    transform: translateY(-50%) translateX(-50%);
+    width: 95%;
+  }
+  .Tab_area_two .tab_right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 766px) {
+  .Tab_area_two .tab_desc {
+    padding: 30px 30px;
+  }
+  .Tab_area_two .tab_desc p {
+    padding-bottom: 20px;
+  }
+  .Tab_area_two .tab_li {
+    display: grid !important;
+  }
+  .Tab_area_two .tab_li {
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 666px) and (min-width: 500px) {
+  .tab_desc > h3 {
+    font-size: 17px;
+    padding-bottom: 10px;
+  }
+  .tab_desc p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .theme_btn a {
+    padding: 0 25px;
+    height: 45px;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 499px) {
+  .Tab_area_two .tab_desc {
+    top: auto;
+    bottom: -60%;
+  }
+  .Tab_area_two .tab_desc p {
+    font-size: 11px;
+    line-height: 19px;
+  }
+  .Tab_area_two .theme_btn a {
+    padding: 0 15px;
+    height: 34px;
+    font-size: 12px;
+  }
+  .Tab_area_two .tab_desc {
+    padding: 20px 20px;
+  }
+  .Tab_area_two .tab_li {
+    display: flex;
+    flex-direction: column;
+  }
+  .Tab_area_two .tab_li {
+    padding-bottom: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 52%;
+    margin: 0 auto;
+  }
+  .Tab_area_two .tab_desc {
+    top: auto;
+    width: 85%;
+  }
+  .tab_img_slider {
+    padding: 0 !important;
+    margin-top: 80px !important;
+  }
+  .Tab_area_two .tab_img {
+    height: 440px;
+  }
+  .Tab_area_two .tab_desc {
+    padding: 30px 20px !important;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .Tab_area_two .tab_desc {
+    top: auto;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .Tab_area_two .tab_desc {
+    top: auto;
+    bottom: -190%;
+  }
+}

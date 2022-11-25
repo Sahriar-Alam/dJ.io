@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+}
+img {
+  width: 100%;
+}
+html {
+  scroll-behavior: smooth;
+}
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+/* scroll bar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--gray);
+}
+::-webkit-scrollbar-thumb {
+  background: #086ad8;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #086ad8;
+}
+/* scroll top */
+.scroll_top {
+  background: blue;
+  width: 55px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 99999999999999;
+}
+.uptodown {
+  animation: uptodown alternate-reverse linear 1s infinite;
+}
+@keyframes uptodown {
+  from {
+    transform: translateY(-5px);
+  }
+  to {
+    transform: translateY(5px);
+  }
+}
+/* about_us page  */
+.About_us_section .theme_btn {
+  padding-top: 35px;
+}
+.About_us_section {
+  padding: 120px 0;
+}
+strong {
+  color: #086ad8;
+}

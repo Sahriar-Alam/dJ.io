@@ -1,0 +1,125 @@
+.Header_area {
+  margin-top: 80px;
+}
+.Header_area .container {
+  display: block;
+}
+.header_left_contents .big_h1 {
+  padding-bottom: 45px;
+}
+.big_h1 h2 {
+  color: #000;
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  line-height: 60px;
+}
+.Header_area .big_h1 h2 {
+  color: #fff;
+}
+.Header_area .big_h1 h2 span {
+  color: #0c1520;
+}
+.Header_area .theme_desc p {
+  color: aliceblue;
+  padding: 25px 0;
+}
+.theme_desc p {
+  font-size: 16px;
+  color: #7a8595;
+  font-weight: 500;
+  line-height: 30px;
+  margin-bottom: 0;
+}
+.Header_area .theme_btn a {
+  background: #fff;
+  color: #086ad8;
+}
+.Header_area .theme_btn a:hover {
+  background: #086ad8;
+  color: #fff;
+}
+.header_left {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.header_img {
+  width: fit-content;
+  position: relative;
+}
+.header_img img {
+  border-radius: 10px;
+}
+.Header_area .theme_desc {
+  padding-bottom: 20px;
+}
+.big_h1 h2 span {
+  color: #086ad8;
+}
+.header_left_contents {
+  z-index: 99999;
+  padding: 150px 0px;
+}
+@media only screen and (max-width: 992px) {
+  .big_h1 h2 {
+    font-size: 35px;
+    line-height: 45px;
+  }
+  .header_left_contents .big_h1 {
+    padding-bottom: 0;
+  }
+}
+@media only screen and (max-width: 930px) {
+  .header_left,
+  .header_right {
+    width: 100%;
+  }
+  .header_right {
+    justify-content: center;
+  }
+  .Header_area .container {
+    padding-right: 10%;
+  }
+}
+@media only screen and (max-width: 766px) {
+  .updown_anim {
+    display: none;
+  }
+  .Header_area .container {
+    padding-right: 0;
+  }
+}
+@media only screen and (max-width: 499px) {
+  .big_h1 h2 {
+    font-size: 30px;
+    line-height: 43px;
+  }
+}
+@media only screen and (min-width: 2045px) {
+  .Header_area .container {
+    padding-right: 7%;
+  }
+}
+
+.slider_item:nth-child(1) .header_left_contents {
+  background: url(../Images/Hero-imgs/banner-1.jpg) fixed no-repeat top left /
+    cover !important;
+  height: 600px;
+}
+.slider_item:nth-child(2) .header_left_contents {
+  background: url(../Images/Hero-imgs/banner-2.jpg) fixed no-repeat top left /
+    cover !important;
+  height: 600px;
+}
+.slider_item:nth-child(3) .header_left_contents {
+  background: url(../Images/Hero-imgs/banner-3.jpg) fixed no-repeat top left /
+    cover !important;
+  height: 600px;
+}
+.slider_item .header_left_contents {
+  background: url(../Images/Hero-imgs/banner-1.jpg) fixed no-repeat top left /
+    cover !important;
+  height: 600px;
+}
